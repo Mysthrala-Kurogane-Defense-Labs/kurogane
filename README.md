@@ -6,9 +6,14 @@ Kurogane Hub is designed to help organizations reduce operational risk, improve 
 
 This repository is a public landing point for technical discovery, issue tracking, transparency, and controlled collaboration around Kurogane Hub. It does not contain production Kurogane Hub source code, customer deployment logic, sensitive detection rules, credentials, internal endpoints, or real operational data.
 
-## Keywords
+## Start Here
 
-OT cybersecurity, industrial monitoring, Elixir, Phoenix, PLC, SCADA, NIS2, METI, SME industrial cybersecurity, digital twin, satellite architecture, data sovereignty, operational risk, industrial SMEs, cyber-physical systems.
+- **Industrial businesses:** see [MKDL's services and scope](https://mkdl.jp/#trabajo), or contact [info@mkdl.jp](mailto:info@mkdl.jp) to discuss a diagnosis.
+- **Developers:** start with the [Satellite SDK](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-satellite-sdk) for preliminary event contracts and a dry-run example.
+- **Lab evaluation:** use [Kurogane Labs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-labs) with synthetic data, separately from real industrial networks.
+- **Documentation:** consult [Kurogane Docs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs); it is preliminary, and most topic pages are currently outlines.
+
+Public examples do not establish production readiness, customer outcomes or compatibility with the private core. Each repository describes its own scope and license.
 
 ## What Is Public
 
@@ -35,7 +40,7 @@ OT cybersecurity, industrial monitoring, Elixir, Phoenix, PLC, SCADA, NIS2, METI
 - [kurogane](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane): landing repository for the public technical ecosystem around Kurogane Hub.
 - [kurogane-satellite-sdk](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-satellite-sdk): public Elixir SDK for preliminary satellite and connector integration patterns.
 - [kurogane-labs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-labs): synthetic lab environment for OT cybersecurity and industrial monitoring demonstrations.
-- [kurogane-docs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs): public technical documentation for adoption, integration, and deployment models.
+- [kurogane-docs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs): preliminary documentation topics and a glossary; most topic pages are outlines.
 - [kurogane-security-model](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model): public security model, trust boundaries, and controlled review process.
 
 ## Public Feedback
