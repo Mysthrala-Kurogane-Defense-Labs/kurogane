@@ -1,13 +1,21 @@
 # FAQ
 
-## Is Kurogane Hub open source?
+## What can I run today in the public repositories?
 
-No. Kurogane Hub is MKDL's private commercial OT cybersecurity and industrial monitoring platform. These repositories form the public technical ecosystem around Kurogane Hub.
+Local Elixir event helpers and dry-run examples in the SDK; deterministic JSONL scenarios and a read-only analyzer in Labs; optional local Node-RED visualization. Follow each repository's requirements and checks.
 
-## Can the private core be reviewed?
+## Can I install or connect to the private Hub?
 
-Selected auditors, partners, investors, and security researchers can request controlled technical review access.
+No public installer or receiver API is supplied. The SDK's non-dry-run branch returns `:transport_not_implemented`. Private-core review requests are evaluated case by case and do not themselves grant access.
 
-## Do these repositories contain production code?
+## What can a company use without an integration?
 
-No production Kurogane Hub core code is included. Public code is limited to SDK examples, schemas, labs, and snippets designed for integration and education.
+The Docs preparation session, inventory questions and security evidence checklist. They help define scope, owners and unknowns without touching equipment.
+
+## Is this evidence of production readiness or certification?
+
+No. Public tests have a synthetic scope. Availability, actual deployment controls and regulatory applicability require separate evidence.
+
+## How can I correct a misleading claim?
+
+Use the relevant repository's issue tracker with the exact passage, primary source and checked date. Sensitive findings follow [SECURITY.md](../SECURITY.md).
