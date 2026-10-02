@@ -1,22 +1,23 @@
-# Public Roadmap
+# Public roadmap
 
-This roadmap covers the public technical ecosystem around Kurogane Hub. It is not a production delivery commitment and does not expose the private commercial roadmap.
+This roadmap concerns public artifacts, not private-product delivery dates. Check repository commits and tests before relying on a capability.
 
-## Near Term
+## Public surfaces
 
-- Publish public repository map and contribution boundaries.
-- Stabilize preliminary event contracts for synthetic asset, alarm, and telemetry examples.
-- Expand synthetic lab scenarios for industrial monitoring, alarm storms, network drops, and operator visibility.
-- Document controlled technical review access for selected auditors, partners, investors, and security researchers.
+- Company preparation, inventory and deployment-evaluation guides.
+- Distinct security review questions and a private reporting route.
+- Contract 0.2 schemas, Elixir validation and dry-run previews.
+- Four finite synthetic lab scenarios with a local analyzer.
+- Repository map, contribution boundaries and primary-source references.
 
-## Medium Term
+## Open design decisions
 
-- Improve public SDK ergonomics for connector authors.
-- Add more synthetic PLC and SCADA-style examples without real plant data.
-- Publish additional data sovereignty and deployment-model guidance for industrial SMEs.
-- Refine SBOM and responsible disclosure documentation.
+These are proposals, not implemented features or scheduled commitments:
 
-## Backlog
+- An authenticated receiver contract and transport, if a public integration scope is approved.
+- Bounded queueing, retries, acknowledgments and delivery-failure tests.
+- Additional sector examples using wholly invented data.
+- Artifact-specific SBOM generation and release provenance.
+- More negative and interoperability cases for the public event contract.
 
-- TODO: Evaluate whether a public schema changelog should become a separate package.
-- TODO: Add public examples for additional industrial sectors using only synthetic data.
+No public Hub installer, PLC driver, real-time digital twin or certified compliance package is promised. Submit a concrete use case and expected verification through the [feedback process](docs/public-feedback-process.md).

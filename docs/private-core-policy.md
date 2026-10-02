@@ -1,5 +1,7 @@
-# Private Core Policy
+# Private-core policy
 
-Kurogane Hub is a private commercial product. The production core, sensitive detection logic, customer deployment logic, commercial dashboards, internal orchestration, and security-sensitive implementation details are not published in this public technical ecosystem around Kurogane Hub.
+The public repositories do not contain or license Kurogane Hub's private core. Public scope is limited to the guides, schemas, examples and labs described by each repository.
 
-Controlled technical review may be available to selected auditors, partners, investors, and security researchers under appropriate legal, operational, and confidentiality controls.
+Do not infer private detection behavior, tenancy, supported topology, service availability or implemented controls from a public description. Those claims require version-specific evidence and an agreed review scope.
+
+For review requests, use the [controlled access process](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/controlled-review-access.md). Access, methods, confidentiality, evidence handling and publication conditions must be agreed before testing. No request creates automatic review access.

@@ -1,5 +1,12 @@
-# Architecture Overview
+# Public architecture boundary
 
-At a high level, Kurogane Hub is intended to support industrial monitoring through a hub-and-satellite architecture. Local satellite components can collect or normalize signals near operational environments, while hub-side components provide analysis, visibility, reporting, and operator workflows.
+The implemented example path is:
 
-This public description is conceptual. It does not disclose production topology, customer deployment logic, internal orchestration, detection logic, or security-sensitive implementation details.
+```text
+Invented model → finite JSONL events → local schema validation → read-only report
+                                     → Elixir event validation / dry-run preview
+```
+
+Optional Node-RED emits synthetic messages using builtin nodes. There is no public receiver, authenticated transport, protocol driver or production topology in these repositories. A hub-and-satellite design is conceptual until the actual components and versioned integration contract are reviewed.
+
+For a real proposal, request source permissions, authentication, asset mapping, timestamps, data flows, queue bounds, acknowledgment semantics and recovery behavior. Record unanswered decisions. Use the [security trust-boundary guide](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/trust-boundaries.md) to define evidence rather than treating this diagram as an implementation specification.

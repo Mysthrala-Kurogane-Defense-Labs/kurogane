@@ -1,7 +1,7 @@
-# Security
+# Reporting a security concern
 
-This repository is for public technical documentation and issue tracking. It is not the place to publish vulnerabilities, exploit paths, customer information, internal endpoints, credentials, or sensitive Kurogane Hub implementation details.
+Contact [security@mkdl.jp](mailto:security@mkdl.jp), the address in [MKDL security.txt](https://mkdl.jp/.well-known/security.txt). Provide the affected public repository/version and a brief non-sensitive description. Ask for a suitable private channel before sending confidential evidence.
 
-For security-sensitive reports, use private contact channels listed by MKDL or request a controlled disclosure channel. Public issues may be used for high-level security model suggestions that do not disclose actionable attack details.
+Follow the [disclosure policy](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/disclosure-policy.md). This reporting route does not authorize testing customer systems, private deployments or third-party services. No bounty, legal safe harbor or response deadline is promised.
 
-The commercial production core remains private, but selected auditors, partners, investors, and security researchers may request controlled technical review access.
+Public issues are suitable for documentation corrections and non-sensitive questions using synthetic data. Private-core review requests follow the [controlled access process](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/controlled-review-access.md).

@@ -1,60 +1,31 @@
-# Kurogane
+# Kurogane — industrial cybersecurity, with inspectable examples
 
-Kurogane is the public technical ecosystem around Kurogane Hub, MKDL's commercial OT cybersecurity and industrial monitoring platform for industrial SMEs and micro-SMEs.
+Public guides, event contracts and synthetic exercises from **Mysthrala Kurogane Defense Labs (MKDL)** for small industrial businesses and technical teams.
 
-Kurogane Hub is designed to help organizations reduce operational risk, improve industrial visibility, support regulatory alignment, and maintain data sovereignty without unnecessary complexity. The commercial production core remains private.
+## Choose your next step
 
-This repository is a public landing point for technical discovery, issue tracking, transparency, and controlled collaboration around Kurogane Hub. It does not contain production Kurogane Hub source code, customer deployment logic, sensitive detection rules, credentials, internal endpoints, or real operational data.
+| You want to… | Start here | What you can verify |
+| --- | --- | --- |
+| Understand your workshop's dependencies | [Company preparation](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs/blob/main/docs/sme-onboarding.md) | Scope, asset owners and three dated actions |
+| Review access, recovery or a provider | [Security review checklist](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/security-review-checklist.md) | Required evidence and unresolved questions |
+| Build a synthetic connector | [Satellite SDK](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-satellite-sdk) | Local contract validation and dry-run preview |
+| Try alarms and missing telemetry | [Labs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-labs) | Four finite scenarios with expected observations |
+| Discuss a scoped service | [MKDL services](https://mkdl.jp/#trabajo), [info@mkdl.jp](mailto:info@mkdl.jp) | Agreed scope, deliverable and review conditions |
 
-## Start Here
+## Public scope
 
-- **Industrial businesses:** see [MKDL's services and scope](https://mkdl.jp/#trabajo), or contact [info@mkdl.jp](mailto:info@mkdl.jp) to discuss a diagnosis.
-- **Developers:** start with the [Satellite SDK](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-satellite-sdk) for preliminary event contracts and a dry-run example.
-- **Lab evaluation:** use [Kurogane Labs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-labs) with synthetic data, separately from real industrial networks.
-- **Documentation:** consult [Kurogane Docs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs); it is preliminary, and most topic pages are currently outlines.
+The SDK validates asset, alarm and telemetry events. It has **no HTTP transport**. Labs generates invented events and analyzes local files; optional Node-RED visualizes a synthetic flow. Docs provides preparation and provider-evaluation guides. The security model supplies questions and evidence criteria.
 
-Public examples do not establish production readiness, customer outcomes or compatibility with the private core. Each repository describes its own scope and license.
+Kurogane Hub is MKDL's private technology project. These repositories do not supply its core, a public installer or a production receiver contract. They do not prove deployed controls, customer outcomes, product availability, private-core compatibility or regulatory compliance.
 
-## What Is Public
+See the [repository map](docs/repository-map.md), [architecture boundary](docs/architecture-overview.md), [public roadmap](ROADMAP.md) and [FAQ](docs/faq.md).
 
-- Architecture overview.
-- Public roadmap.
-- Synthetic labs.
-- Event schemas.
-- SDK examples.
-- Security model.
-- Public issue tracking.
-- Integration documentation.
+## Corrections and review
 
-## What Remains Private
+Use the relevant repository's issues for synthetic examples, incorrect claims and non-sensitive questions. A useful correction cites the disputed passage, authoritative source, version and checked date. Keep real plant data and private evidence out of public issues.
 
-- Production core.
-- Detection logic.
-- Customer deployment logic.
-- Commercial dashboards.
-- Internal orchestration.
-- Security-sensitive implementation details.
-
-## Repository Map
-
-- [kurogane](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane): landing repository for the public technical ecosystem around Kurogane Hub.
-- [kurogane-satellite-sdk](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-satellite-sdk): public Elixir SDK for preliminary satellite and connector integration patterns.
-- [kurogane-labs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-labs): synthetic lab environment for OT cybersecurity and industrial monitoring demonstrations.
-- [kurogane-docs](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-docs): preliminary documentation topics and a glossary; most topic pages are outlines.
-- [kurogane-security-model](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model): public security model, trust boundaries, and controlled review process.
-
-## Public Feedback
-
-Use GitHub Issues in this repository for ecosystem-level questions, public roadmap feedback, documentation gaps, and non-sensitive technical suggestions. Use the SDK, labs, docs, or security-model repositories for feedback specific to those surfaces.
-
-Do not post secrets, internal infrastructure details, real customer data, sensitive plant diagrams, exploit instructions, or non-public Kurogane Hub implementation details.
-
-## Controlled Technical Review
-
-The private Kurogane Hub core can be reviewed under controlled access by selected auditors, partners, investors, and security researchers. Controlled technical review is separate from this public repository and may include NDAs, scoped access, time limits, audit objectives, and secure evidence handling.
-
-Requests should describe the reviewing organization, review purpose, expected scope, and required evidence. MKDL will evaluate requests case by case.
+Sensitive reports use [security@mkdl.jp](mailto:security@mkdl.jp) and the [disclosure process](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/disclosure-policy.md). Private-core review requests are evaluated case by case under an agreed [scope and access process](https://github.com/Mysthrala-Kurogane-Defense-Labs/kurogane-security-model/blob/main/controlled-review-access.md).
 
 ## License
 
-Documentation in this repository is licensed under CC BY-ND 4.0. This repository does not license or publish the commercial production core of Kurogane Hub.
+Documentation retains [CC BY-ND 4.0](LICENSE.md). Each linked repository states its own terms. No license to the private core is granted here.
